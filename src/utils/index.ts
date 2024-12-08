@@ -1,4 +1,4 @@
-export const a = 100;
+export const a = 100
 export function fn(x: number): number {
-  return a + 1;
+  return x + 1
 }
