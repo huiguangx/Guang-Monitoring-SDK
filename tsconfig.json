@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // 输出的目标 JavaScript 版本
+    "module": "ESNext", // 模块类型
+    "moduleResolution": "node", // 模块解析策略
+    "esModuleInterop": true, // 允许 CommonJS 模块和 ES 模块之间的互操作
+    "declaration": true, // 生成 .d.ts 文件
+    "outDir": "./dist", // 编译后的输出目录
+    "strict": true, // 启用严格类型检查
+    "skipLibCheck": true // 跳过库文件的类型检查，提升编译速度
+  },
+  "include": ["src/**/*"]
+}
